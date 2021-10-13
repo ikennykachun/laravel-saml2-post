@@ -4,7 +4,7 @@
     "keywords": ["laravel","saml", "saml2", "onelogin"],
     "homepage": "https://github.com/aherstein/laravel-saml2-post",
     "license": "MIT",
-  "version": "0.15.0",
+  "version": "0.15.2",
     "authors": [
         {
             "name": "aherstein",
@@ -34,5 +34,5 @@
             }
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
