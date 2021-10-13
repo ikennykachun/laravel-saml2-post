@@ -1,5 +1,5 @@
 {
-    "name": "aherstein/laravel-saml2-post",
+    "name": "ikennykachun/laravel-saml2-post",
     "description": "A Laravel package for Saml2 integration as a SP (service provider) based on OneLogin toolkit, which is much lightweight than simplesamlphp",
     "keywords": ["laravel","saml", "saml2", "onelogin"],
     "homepage": "https://github.com/aherstein/laravel-saml2-post",
@@ -12,9 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": ">=5.0.0",
-        "onelogin/php-saml": ">=2.10"
+        "php": ">=7.4.0",
+        "illuminate/support": ">=8.0.0",
+        "onelogin/php-saml": ">=4.10"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*"
