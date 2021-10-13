@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.4.0",
         "illuminate/support": ">=8.0.0",
-        "onelogin/php-saml": ">=4.10"
+        "onelogin/php-saml": "dev"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*"
