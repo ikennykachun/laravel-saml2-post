@@ -2,9 +2,6 @@
 
 namespace SamlPost\Saml2;
 
-use OneLogin_Saml2_Auth;
-use OneLogin_Saml2_Error;
-use OneLogin_Saml2_Utils;
 use SamlPost\Saml2\Events\Saml2LogoutEvent;
 
 use Log;
@@ -14,13 +11,13 @@ class Saml2Auth
 {
 
     /**
-     * @var \OneLogin_Saml2_Auth
+     * @var \\OneLogin\Saml2\Auth
      */
     protected $auth;
 
     protected $samlAssertion;
 
-    function __construct(OneLogin_Saml2_Auth $auth)
+    function __construct(\OneLogin\Saml2\Auth $auth)
     {
         $this->auth = $auth;
     }
@@ -141,7 +138,7 @@ class Saml2Auth
 
             throw new InvalidArgumentException(
                 'Invalid SP metadata: ' . implode(', ', $errors),
-                OneLogin_Saml2_Error::METADATA_SP_INVALID
+                \OneLogin\Saml2\Error::METADATA_SP_INVALID
             );
         }
     }
